@@ -1,0 +1,24 @@
+@import url('fonts.css');
+
+@import url('header.css');
+
+@import url('banner.css');
+
+@import url('reclame.css');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    font-family: 'lato-regular', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+}

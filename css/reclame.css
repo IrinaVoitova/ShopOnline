@@ -1,0 +1,339 @@
+.reclame {
+    width: 1830px;
+    margin: 0 auto 189px auto;
+    padding: 0 30px;
+    display: grid;
+    grid-template: repeat(4, 245px) / repeat(6, 245px);
+    gap: 60px;
+}
+
+.reclame__link {
+    border-radius: 20px;
+}
+
+.reclame__link-1,
+.reclame__link-2,
+.reclame__link-9,
+.reclame__link-10 {
+    width: 245px;
+    height: 245px;
+}
+
+.reclame__link-4,
+.reclame__link-5,
+.reclame__link-6 {
+    width: 550px;
+    height: 245px;
+}
+
+.reclame__link-1 {
+    background-image: url(../img/reclame/1830/reclame_1.png);
+    grid-area: 1/1/2/2;
+}
+
+.reclame__link-2 {
+    background-image: url(../img/reclame/1830/reclame_2.png);
+    grid-area: 1/2/2/3;
+}
+
+.reclame__link-3 {
+    background-image: url(../img/reclame/1830/reclame_3.png);
+    grid-area: 1/3/3/5;
+    width: 550px;
+    height: 550px;
+}
+
+.reclame__link-4 {
+    background-image: url(../img/reclame/1830/reclame_4.png);
+    grid-area: 1/5/2/7;
+}
+
+.reclame__link-5 {
+    background-image: url(../img/reclame/1830/reclame_5.png);
+    grid-area: 2/1/3/3;
+}
+
+.reclame__link-6 {
+    background-image: url(../img/reclame/1830/reclame_6.png);
+    grid-area: 2/5/3/7;
+}
+
+.reclame__link-7 {
+    background-image: url(../img/reclame/1830/reclame_7.png);
+    grid-area: 3/1/5/5;
+    width: 1160px;
+    height: 550px;
+}
+
+.reclame__link-8 {
+    background-image: url(../img/reclame/1830/reclame_8.png);
+    grid-area: 3/5/5/6;
+    width: 245px;
+    height: 550px;
+}
+
+.reclame__link-9 {
+    background-image: url(../img/reclame/1830/reclame_9.png);
+    grid-area: 3/6/4/7;
+}
+
+.reclame__link-10 {
+    background-image: url(../img/reclame/1830/reclame_10.png);
+    grid-area: 4/6/5/7;
+}
+
+@media (max-width: 1024px) {
+
+    .reclame {
+        width: 1000px;
+        margin: 0 auto 106px auto;
+        grid-template: repeat(4, 217px) 418px / repeat(4, 217px);
+        gap: 24px;
+    }
+
+    .reclame__link {
+        border-radius: 16px;
+    }
+
+    .reclame__link-1 {
+        background-image: url(../img/reclame/1024/1.png);
+        grid-area: 1/1/2/2;
+    }
+
+    .reclame__link-2 {
+        background-image: url(../img/reclame/1024/2.png);
+        grid-area: 1/2/2/3
+    }
+
+    .reclame__link-3 {
+        background-image: url(../img/reclame/1024/3.png);
+        grid-area: 1/3/3/5;
+        width: 458px;
+        height: 458px;
+    }
+
+    .reclame__link-4 {
+        background-image: url(../img/reclame/1024/4.png);
+        grid-area: 3/1/4/3;
+    }
+
+    .reclame__link-5 {
+        background-image: url(../img/reclame/1024/5.png);
+        grid-area: 2/1/3/3;
+    }
+
+    .reclame__link-6 {
+        background-image: url(../img/reclame/1024/6.png);
+        grid-area: 4/1/5/3;
+    }
+
+    .reclame__link-7 {
+        background-image: url(../img/reclame/1024/7.png);
+        grid-area: 5/1/6/5;
+        width: 940px;
+        height: 418px;
+    }
+
+    .reclame__link-8 {
+        background-image: url(../img/reclame/1024/8.png);
+        grid-area: 3/3/5/4;
+        width: 217px;
+        height: 458px;
+    }
+
+    .reclame__link-9 {
+        background-image: url(../img/reclame/1024/9.png);
+        grid-area: 3/4/4/5;
+    }
+
+    .reclame__link-10 {
+        background-image: url(../img/reclame/1024/10.png);
+        grid-area: 4/4/5/5;
+    }
+    
+    .reclame__link-1,
+    .reclame__link-2,
+    .reclame__link-9,
+    .reclame__link-10 {
+        width: 217px;
+        height: 217px;
+    }
+    
+    .reclame__link-4,
+    .reclame__link-5,
+    .reclame__link-6 {
+        width: 458px;
+        height: 217px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .reclame {
+        width: 760px;
+        margin: 0 auto 580px auto;
+        grid-template: 140px 140px repeat(4, 60px) 337px /1fr 1fr 220px 1fr;
+        gap: 20px;
+    }
+
+    .reclame__link {
+        border-radius: 12px;
+    }
+    
+    .reclame__link-1 {
+        grid-area: 1/1/2/2;
+        background-image: url(../img/reclame/768/1.png);
+    }
+
+    .reclame__link-2 {
+        grid-area: 1/2/2/3;
+        background-image: url(../img/reclame/768/2.png);
+    }
+    
+    .reclame__link-3 {
+        grid-area: 1/3/4/5;
+        background-image: url(../img/reclame/768/3.png);
+        width: 380px;
+        height: 380px;
+    }
+    
+    .reclame__link-4 {
+        grid-area: 3/1/5/3;
+        background-image: url(../img/reclame/768/4.png);
+    }
+    
+    .reclame__link-5 {
+        grid-area: 2/1/3/3;
+        background-image: url(../img/reclame/768/5.png);
+    }
+    
+    .reclame__link-6 {
+        grid-area: 5/1/7/3;
+        background-image: url(../img/reclame/768/6.png);
+    }
+    
+    .reclame__link-7 {
+        grid-area: 7/1/8/5;
+        background-image: url(../img/reclame/768/7.png);
+        width: 700px;
+        height: 337px;
+    }
+    
+    .reclame__link-8 {
+        grid-area: 4/3/7/4;
+        background-image: url(../img/reclame/768/8.png);
+        width: 220px;
+        height: 220px;
+    }
+    
+    .reclame__link-9 {
+        grid-area: 4/4/5/5;
+        background-image: url(../img/reclame/768/9.png);
+    }
+    
+    .reclame__link-10 {
+        grid-area: 6/4/7/5;
+        background-image: url(../img/reclame/768/10.png);
+        width: 140px;
+        height: 60px;
+    }
+    
+    .reclame__link-1,
+    .reclame__link-2,
+    .reclame__link-9 {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .reclame__link-4,
+    .reclame__link-5,
+    .reclame__link-6 {
+        width: 300px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .reclame {
+        width: 340px;
+        margin: 0 auto 234px auto;
+        grid-template: 130px repeat(2, 118px 130px 130px 118px) / repeat(2, 130px);
+    }
+
+    .reclame__link {
+        border-radius: 8px;
+    }
+    
+    .reclame__link-1 {
+        grid-area: 1/1/2/2;
+        background-image: url(../img/reclame/320/1.png);
+    }
+
+    .reclame__link-2 {
+        grid-area: 1/2/2/3;
+        background-image: url(../img/reclame/320/2.png);
+    }
+    
+    .reclame__link-3 {
+        grid-area: 3/1/5/3;
+        background-image: url(../img/reclame/320/3.png);
+        width: 280px;
+        height: 280px;
+    }
+    
+    .reclame__link-4 {
+        grid-area: 5/1/6/3;
+        background-image: url(../img/reclame/320/4.png);
+    }
+    
+    .reclame__link-5 {
+        grid-area: 2/1/3/3;
+        background-image: url(../img/reclame/320/5.png);
+    }
+    
+    .reclame__link-6 {
+        grid-area: 6/1/7/3;
+        background-image: url(../img/reclame/320/6.png);
+    }
+    
+    .reclame__link-7 {
+        grid-area: 9/1/10/3;
+        background-image: url(../img/reclame/320/7.png);
+        width: 280px;
+        height: 123px;
+    }
+    
+    .reclame__link-8 {
+        grid-area: 7/1/9/2;
+        background-image: url(../img/reclame/320/8.png);
+        width: 130px;
+        height: 280px;
+    }
+    
+    .reclame__link-9 {
+        grid-area: 7/2/8/3;
+        background-image: url(../img/reclame/320/9.png);
+    }
+    
+    .reclame__link-10 {
+        grid-area: 8/2/9/3;
+        background-image: url(../img/reclame/320/10.png);
+    }
+    
+    .reclame__link-1,
+    .reclame__link-2,
+    .reclame__link-9,
+    .reclame__link-10 {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .reclame__link-4,
+    .reclame__link-5,
+    .reclame__link-6 {
+        width: 280px;
+        height: 118px;
+    }
+}
+

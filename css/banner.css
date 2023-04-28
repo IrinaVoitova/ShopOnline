@@ -1,0 +1,225 @@
+.banner {
+    position: relative;
+    width: 1830px;
+    padding: 0 30px;
+    margin: 0 auto 60px auto;
+    border-radius: 20px;
+}
+
+.banner__title {
+    position: absolute;
+    width: 705px;
+    left: 142px;
+    top: 145px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.banner__timer {
+    position: absolute;
+    left: 649px;
+    top: 336px;
+    width: 473px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.timer__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.timer__list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timer__item {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.timer__p {
+    margin: 0;
+}
+
+.timer__days-number,
+.timer__hours-number,
+.timer__minutes-number {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.timer__days-word,
+.timer__hours-word,
+.timer__minutes-word {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-top: 22px;
+}
+
+@media (max-width: 1024px) {
+    .banner {
+        width: 1000px;
+        margin: 0 auto 22px auto;
+        border-radius: 16px;
+    }
+
+    .banner__img {
+        width: 940px;
+        height: 314px;
+    }
+    
+    .banner__title {
+        width: 391.29px;
+        left: 109.66px;
+        top: 80px;
+        font-size: 40px;
+    }
+    
+    .banner__timer {
+        left: 344px;
+        top: 195px;
+        width: 314px;
+        height: 83px;
+        gap: 10px;
+    }
+    
+    .timer__list {
+        gap: 20px;
+    }
+    
+    .timer__item {
+        gap: 5px;
+    }
+
+    .timer__days-number,
+    .timer__hours-number,
+    .timer__minutes-number {
+        font-size: 40px;
+    }
+    
+    .timer__days-word,
+    .timer__hours-word,
+    .timer__minutes-word {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        width: 760px;
+        margin: 0 auto 40px auto;
+    }
+
+    .banner__img {
+        width: 700px;
+        height: 280px;
+    }
+    
+    .banner__title {
+        width: 302px;
+        left: 120px;
+        top: 64px;
+        font-size: 30px;
+    }
+    
+    .banner__timer {
+        left: 265px;
+        top: 185px;
+        width: 229px;
+        height: 65px;
+    }
+    
+    .timer__list {
+        gap: 10px;
+    }
+    
+    .timer__item {
+        gap: 3px;
+    }
+
+    .timer__days-number,
+    .timer__hours-number,
+    .timer__minutes-number {
+        font-size: 30px;
+    }
+    
+    .timer__days-word,
+    .timer__hours-word,
+    .timer__minutes-word {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner {
+        width: 340px;
+        margin: 0 auto 20px auto;
+        border-radius: 8px;
+    }
+
+    .banner__img {
+        width: 280px;
+        height: 340px;
+    }
+    
+    .banner__title {
+        width: 222px;
+        left: 59px;
+        top: 50px;
+        font-size: 22px;
+    }
+    
+    .banner__timer {
+        left: 87px;
+        top: 268px;
+        width: 167px;
+        height: 42px;
+    }
+    .banner__timer {
+        gap: 6px;
+    }
+
+    .timer__list {
+        gap: 8px;
+    }
+    
+    .timer__item {
+        gap: 2px;
+    }
+
+    .timer__days-number,
+    .timer__hours-number,
+    .timer__minutes-number {
+        font-size: 20px;
+    }
+    
+    .timer__days-word,
+    .timer__hours-word,
+    .timer__minutes-word {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+}
